@@ -1,3 +1,7 @@
+---
+
+---
+
 # The Collatz Conjecture
 Collatz Conjecture implementation with ChartJs
 
@@ -22,5 +26,6 @@ __Example:Graph for n = 27__
 - [ ] More __seed__ input value validation (e.g. integers/Nan/undefined const parsed = parseInt(x, base)/const x = Number.isInteger(x)
 - [ ] Optional try __Bootstrap__ or __Bulma__ Framework
 - [ ] Optional try __D3Js__ (https://d3js.org/) instead of __ChartJs__ (https://www.chartjs.org/)
-    
-__Belleblazer4life__
+  
+
+Belleblazer4life
