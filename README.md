@@ -10,3 +10,9 @@ Then each term is obtained from the previous term as follows: if the previous te
 
 See:
 https://en.wikipedia.org/wiki/Collatz_conjecture
+
+
+__Graph for n = 27__
+
+![Collatz Conjecture](https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Collatz5.svg/440px-Collatz5.svg.png)
+
