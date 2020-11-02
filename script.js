@@ -10,8 +10,12 @@ function setUp(seed)
 
   if (seed < 1 || !Number.isInteger(seed))
   {
-    alert("Seed value should be an positive Integer value >= 1\nDefault seed =1 will be used");
-    seed = 1;
+        let val = document.getElementById("int-seed");
+        
+        alert("Seed value should be an positive Integer value >= 1\nDefault seed =1 will be used");
+        seed = 1;
+        val.value=seed;
+    //val.value=100;
   }
   let data = [];
 
