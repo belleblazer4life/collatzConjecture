@@ -1,0 +1,37 @@
+* {
+  margin: 5px;
+  padding: 0px;
+}
+
+body {
+  /* font-family:andale mono; */
+  font-family: Nunito;
+  -webkit-print-color-adjust: exact;
+}
+
+h2 {
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+}
+
+#my-img {
+  padding: 10px;
+  text-align: center;
+}
+
+#collatz-chart {
+  margin: auto;
+  box-sizing: border-box;
+  border:1px dotted black; */;
+}
+
+.w3-card-4 {
+  padding: 10px;
+  margin:auto;
+}
+
+.w3-text-blue {
+  padding: 0px;
+  margin: 0px;
+}

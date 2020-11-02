@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
+      <title>Test</title>
+   </head>
+   <body>
+      <h2>1.Collatz Conjecture</h2>
+      <h3>1.1.HOTPO (Half Or Triple Plus One) </h3>
+      <p>
+         The <b>Collatz conjecture</b> is a conjecture in mathematics that concerns a sequence defined as follows: start with any positive integer n. Then each term is obtained from the previous term as follows: if the previous term is even, the next term is one half of the previous term. If the previous term is odd, the next term is 3 times the previous term plus 1. The conjecture is that no matter what value of n, the sequence will always reach 1.
+      </p>
+      <div id="my-img">
+         <img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ec22031bdc2a1ab2e4effe47ae75a836e7dea459" alt="">
+         <!-- <img src="collatz.bmp" alt=""> -->
+         <br><br><br>
+         <div class="w3-card-4">
+            <p>
+               <label class="w3-text-blue"><b>Seed value (integer)</b></label>
+               <input class="w3-input w3-border w3-light-grey" name="first" type="number" min="1" step="1" id="int-seed" value="1">
+            </p>
+            <p>
+               <button class="w3-btn w3-blue" id="btn">Update seed value</button>
+            </p>
+         </div>
+      </div>
+      <div class="container">
+         <canvas id="collatz-chart" height="50"></canvas>
+      </div>
+      <script src="script.js"></script>
+   </body>
+</html>
