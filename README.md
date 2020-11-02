@@ -16,3 +16,8 @@ __Example:Graph for n = 27__
 
 ![Collatz Conjecture](https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Collatz5.svg/440px-Collatz5.svg.png)
 
+    * [x] Set-up basic app HTML/CSS/JS
+    * [x] Integrate ChartJs from CDNJS link https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js
+    * [x] Set-up W3.CSS Framework from w3schools link https://www.w3schools.com/w3css/4/w3.css
+    * [] More __seed__ input value validation (e.g. integers/Nan/undefined const parsed = parseInt(x, base)/const x = Number.isInteger(x)
+
